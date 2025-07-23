@@ -1,13 +1,13 @@
 USE electric_cars_eastside;
 
 /*
-
 1) PM: Lidi Vianney Cala Toloza
 2) Uliana Topilina
 3) Alena Golovina
 */
 
 -- Indexes for single-field WHERE clauses:
+
 -- Index for Sales table on the tax_credit column - Lidi Cala
 CREATE INDEX idx_sales_tax_credit ON Sales (tax_credit);
 
@@ -57,6 +57,7 @@ CREATE INDEX idx_sale_amount ON Sales(sale_amount);
 
 /*This query retrieves information about cars where the tax credit is $7500. It displays the VIN number, 
 model, model year, sale amount, and tax credit for each car, organized by the sale amount in ascending order.*/
+
 -- Query 1: Taxes of $7500, organized by the cost of the vehicle
 SELECT c.vin_number, c.model, c.model_year, s.sale_amount, s.tax_credit
 FROM Cars c
