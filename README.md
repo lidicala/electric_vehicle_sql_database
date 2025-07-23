@@ -1,5 +1,5 @@
-*This README is available in English and Spanish. Scroll down for the Spanish version.
-*Este README está disponible en inglés y en español. Desplázate hacia abajo para la versión en español.\*
+_This README is available in English and Spanish. Scroll down for the Spanish version._ 
+_Este README está disponible en inglés y en español. Desplázate hacia abajo para la versión en español._
 
 # Electric Vehicle Ecosystem – SQL Database Project
 
@@ -59,83 +59,6 @@ It was developed as part of an academic course and focuses on practicing advance
 Licensed under the **Apache 2.0 License**.
 
 ---
-
-## Full Report
-
-📝 [View full project write-up](https://docs.google.com/document/d/1O__kjM1Ny0iVwLcc6R8nV0uUNlgT3bdjAWMNOTcMtUo/edit?usp=sharing)  
-This report was written by **Lidi Cala** as an additional reflection on the project’s design, process, and learning outcomes.
-
-# 🚗 Electric Vehicle Ecosystem – SQL Database Project
-
-> 📌 _This README is available in English and Spanish. Scroll down for the Spanish version._  
-> 📌 _Este README está disponible en inglés y en español. Desplázate hacia abajo para la versión en español._
-
----
-
-This repository contains a MySQL relational database designed to model the ecosystem of electric vehicles (EVs), their owners, and charging infrastructure in King County, Washington.
-
-It was developed as part of an academic course and focuses on practicing advanced database design, normalization, and SQL querying.
-
----
-
-## 📌 Project Overview
-
-- Relational schema with 8+ interconnected tables
-- Entity-relationship diagram included
-- Advanced queries using joins, filters, and grouping
-- Stored procedure (`teslaModelsCost_sp`) and function (`discount_price_sf`)
-- Indexed fields for optimized performance
-
----
-
-## 🛠️ Tools & Technologies
-
-- **MySQL**
-- **MySQL Workbench**
-- **SQL**
-- **Git & GitHub**
-
----
-
-## 📂 Files Included
-
-- `electric_cars_eastside.sql` – full schema and data
-- `ev_data_analysis_queries.sql` – indexed queries and stored procedures
-- `diagram.png` – ER diagram
-- `README.md` – project summary
-
----
-
-## 🧠 Sample Insights
-
-- Most-sold Tesla models by year
-- EV sales by ZIP code and city
-- Battery types across manufacturers
-- Public charger distribution analysis
-
----
-
-## 👩‍💻 Authors
-
-- Lidi Cala
-- Uliana Topilina
-- Alena Golovina
-
----
-
-## 📄 License
-
-Licensed under the **Apache 2.0 License**.
-
----
-
-## 📎 Full Report
-
-📝 [View full project write-up](https://docs.google.com/document/d/1O__kjM1Ny0iVwLcc6R8nV0uUNlgT3bdjAWMNOTcMtUo/edit?usp=sharing)  
-This report was written by **Lidi Cala** as an additional reflection on the project’s design, process, and learning outcomes.
-
----
-
 ## Data source
 
 The data used in this project came from a free, publicly available source related to electric vehicles in the U.S.
@@ -143,6 +66,13 @@ The data used in this project came from a free, publicly available source relate
 We don’t have the original link since it was downloaded for an academic activity, but the dataset was cleaned and adapted specifically for this project.
 
 If we find the original source, we’ll update the repo to include proper credit.
+
+---
+
+## Full Report
+
+📝 [View full project write-up](https://docs.google.com/document/d/1O__kjM1Ny0iVwLcc6R8nV0uUNlgT3bdjAWMNOTcMtUo/edit?usp=sharing)  
+This report was written by **Lidi Cala** as an additional reflection on the project’s design, process, and learning outcomes.
 
 ---
 
